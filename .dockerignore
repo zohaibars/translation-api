@@ -1,0 +1,24 @@
+# Exclude git files
+.git
+.gitignore
+
+# Exclude Docker compose files
+docker-compose.yml
+
+# Exclude unnecessary files and directories
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.swp
+*.swo
+
+# Exclude any temporary files or directories
+tmp/
+temp/
+*.log
+*.bak
+
+# Exclude the model directory if it's already downloaded during the build
+indictrans2-en-indic-1B/
